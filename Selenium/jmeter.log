@@ -1,0 +1,12 @@
+2023-12-25 08:23:02,894 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-12-25 08:23:02,916 INFO o.a.j.JMeter: Loading user properties from: E:\CongViecHocTap\Jmeter\apache-jmeter-5.6.2\bin\user.properties
+2023-12-25 08:23:02,916 INFO o.a.j.JMeter: Loading system properties from: E:\CongViecHocTap\Jmeter\apache-jmeter-5.6.2\bin\system.properties
+2023-12-25 08:23:02,917 ERROR o.a.j.JMeter: An error occurred: 
+java.lang.IllegalArgumentException: Unknown arg: Result
+	at org.apache.jmeter.JMeter.initializeProperties(JMeter.java:796) ~[ApacheJMeter_core.jar:5.6.2]
+	at org.apache.jmeter.JMeter.start(JMeter.java:379) [ApacheJMeter_core.jar:5.6.2]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.2]

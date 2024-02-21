@@ -1,0 +1,17 @@
+Java Design Pattern – MVC
+
+com.example.myapp
+|-- model
+|   |-- UserModel.java
+|   |-- ProductService.java
+|   +-- OtherModelClasses.java
+|-- view
+|   |-- UserView.java
+|   |-- ProductView.java
+|   +-- OtherViewClasses.java
+|-- controller
+|   |-- UserController.java
+|   |-- ProductController.java
+|   +-- OtherControllerClasses.java
+|-- Main.java
++-- OtherClasses.java
